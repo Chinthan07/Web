@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="Fbform.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form action="/action_page.php">
+    <div class="Feedback">
+        <div class="container">
+          <label><b>Name:</b></label>
+          <input type="text" placeholder="Enter The Name" Name="fname" autofocus="autofocus" autocomplete="off" required>
+
+          <label><b>Email:</b></label>
+          <input type="email" placeholder="Enter Email" email="email" autocomplete="off" required>
+
+          <label><b>FeedBack:</b></label>
+          <textarea rows="7" cols="20" placeholder="Enter The Feedback" required></textarea>
+
+          <button type="submit" value="Validate" onclick="return Validate()">Submit</button>
+          <button type="reset">Cancel</button>
+        </div>
+    </div>
+<!--
+    <script type="text/javascript">
+        function Validate() {
+               var userconfirmation=confirm("Are You Sure?");
+               if(userconfirmation == true){
+                  window.open("https://www.youtube.com/");
+                  return true;
+               }else{
+                  return false;
+               }
+        }
+       </script>
+-->
+       
+</body>
+</html>

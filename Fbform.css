@@ -1,0 +1,263 @@
+
+body{
+  margin: 40px;
+  padding: 0;
+  height: 100vh;
+  font-family:'Arvo',serif;
+  background-repeat: no-repeat;
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+  }
+
+h1{
+     font-size: 50px;
+     font-family:'Arvo',serif;
+     font-weight: 600;
+     text-align: center;
+}
+
+div.Feedback{
+  margin-top: 60px;
+    color:black;
+}
+
+  /* Add styles to the form container */
+  .container {
+    font-family:'Arvo',serif;
+    max-width: 450px;
+    opacity: 0.9;
+    padding-left: 20px;
+  }
+  /* Full-width input fields */
+    input[type=text], textarea ,input[type=email] {
+    width: 100%;
+    font-family:'Arvo',serif;
+    padding: 8px;
+    font-size: large;
+    margin: 4px 0 20px 0;
+    margin-top: 1rem;
+    border: none;
+    background: white;
+    opacity: 0.9;
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.3) ;
+  }
+  
+  input[type=text]:focus, textarea:focus,input[type=email]:focus {
+    font-size: large;
+    font-family:'Arvo',serif;
+    background-color: whitesmoke;
+    outline: none;
+  }
+  /* Set a style for the submit button */
+  button[type=submit]{
+    background-color:black;
+    color: white;
+    font-size: medium;
+    float:right;
+    margin-right:25px;
+    margin-top:20px;
+    padding: 12px;
+    cursor: pointer;
+    width: 30%;
+  }
+  button[type=reset]{
+    background-color:black;
+    color: white;
+    font-size: medium;
+    margin-left:30px;
+    margin-top:20px;
+    padding: 12px;
+    cursor: pointer;
+    float:left;
+    width: 30%;
+  }
+  button[type=submit]:hover, button[type=reset]:hover {
+    background-color: rgb(28, 26, 26);
+    opacity: 1;
+    transition: ease-in-out 0.2s;
+  }
+
+
+  @media only screen and (max-width: 555px) {
+    h1{
+      font-size: 40px;
+      font-family:'Arvo',serif;
+      font-weight: 600;
+      text-align: center;
+      transition: ease-in-out 0.2s;
+ }
+ 
+ input[type=text],input[type=email] {
+  width: 100%;
+  font-family:'Arvo',serif;
+  padding: 8px;
+  font-size: medium;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+textarea{
+  margin-left:10px;
+  width:99%;
+  font-size: medium;
+  font-family:'Arvo',serif;
+}
+input[type=text]:focus, textarea:focus,input[type=email]:focus {
+  font-size: medium;
+  font-family:'Arvo',serif;
+}
+
+button[type=submit]{
+  font-size: medium;
+  float:right;
+  margin-right:10px;
+  margin-top:20px;
+  padding: 10px;
+  cursor: pointer;
+  width: 28%;
+}
+button[type=reset]{
+  font-size: medium;
+  margin-left:40px;
+  margin-top:20px;
+  padding: 10px;
+  cursor: pointer;
+  float:left;
+  width: 28%;
+}
+  }
+
+
+  @media only screen and (max-width: 475px) {
+    h1{
+      font-size: 35px;
+      font-family:'Arvo',serif;
+      font-weight: 600;
+      text-align: center;
+      transition: ease-in-out 0.2s;
+     }
+
+ input[type=text],input[type=email] {
+  width: 100%;
+  font-family:'Arvo',serif;
+  padding: 8px;
+  font-size: small;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+textarea{
+  margin-left: 10px;
+  width:99%;
+  font-size: small;
+  font-family:'Arvo',serif;
+}
+input[type=text]:focus, textarea:focus,input[type=email]:focus {
+  font-size: small;
+  font-family:'Arvo',serif;
+}
+
+button[type=submit]{
+  font-size: small;
+  float:right;
+  margin-right:20px;
+  margin-top:20px;
+  padding: 10px;
+  cursor: pointer;
+  width: 26%;
+}
+button[type=reset]{
+  font-size: small;
+  margin-left:40px;
+  margin-top:20px;
+  padding: 10px;
+  cursor: pointer;
+  float:left;
+  width: 26%;
+}
+  }
+
+
+  @media only screen and (max-width: 345px) {
+    h1{
+      font-size: 25px;
+      font-family:'Arvo',serif;
+      font-weight: 600;
+      text-align: center;
+      transition: ease-in-out 0.2s;
+     }
+
+ input[type=text],input[type=email] {
+  width: 100%;
+  font-family:'Arvo',serif;
+  padding: 6px;
+  font-size: x-small;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+ }
+
+textarea{
+  margin-left: 10px;
+  width:100%;
+  font-size: x-small;
+  font-family:'Arvo',serif;
+}
+input[type=text]:focus, textarea:focus,input[type=email]:focus {
+  font-size: x-small;
+  font-family:'Arvo',serif;
+}
+
+button[type=submit]{
+  font-size: x-small;
+  float:right;
+  margin-right:10px;
+  margin-top:20px;
+  padding: 10px;
+  cursor: pointer;
+  width: 24%;
+}
+button[type=reset]{
+  font-size: x-small;
+  margin-left:30px;
+  margin-top:20px;
+  padding: 10px;
+  cursor: pointer;
+  float:left;
+  width: 24%;
+}
+  }
+
+  @media only screen and (max-width: 300px){
+    button[type=submit]{
+      font-size: x-small;
+      float:right;
+      margin-right:40px;
+      margin-top:20px;
+      padding: 10px;
+      cursor: pointer;
+      width: 24%;
+    }
+    button[type=reset]{
+      font-size: x-small;
+      margin-left:80px;
+      margin-top:20px;
+      padding: 10px;
+      cursor: pointer;
+      float:left;
+      width: 24%;
+    }
+
+    
+ input[type=text],input[type=email] {
+  width: 70%;
+  font-family:'Arvo',serif;
+  padding: 6px;
+  font-size: x-small;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+ }
+
+textarea{
+  margin-left: 3.8rem;
+  width:68%;
+  font-size: x-small;
+  font-family:'Arvo',serif;
+}
+  }
